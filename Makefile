@@ -11,11 +11,11 @@ go_build:
 
 ## Build docker image
 docker_build:
-	docker build -t yashkumarverma/just-alive .
+	docker build -t yashkumarverma/minitoring-workspace .
 
 ## Run docker image
 docker_run:
-	docker run --rm -p 80:80 yashkumarverma/just-alive
+	docker run --rm -p 80:80 yashkumarverma/minitoring-workspace
 
 ## Compile and prepare a docker image
 clean_build:
